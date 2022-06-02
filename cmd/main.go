@@ -8,6 +8,7 @@ import (
 func main() {
 	var a, b float32
 	var s string
+	fmt.Println("Привет! Это мой первый калькулятор. Проверь как он работает!")
 	fmt.Println("Введите первое число")
 	fmt.Scanln(&a)
 	fmt.Println("Введите действие")
