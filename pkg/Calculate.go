@@ -3,6 +3,8 @@ package Calculate
 import "fmt"
 
 func Calc(x, y float32, s string) float32 {
+	fmt.Println("Провожу сложные вычисления")
+	fmt.Println("Еще немного...")
 	switch s {
 	case "+":
 		fmt.Println("Сумма:")
